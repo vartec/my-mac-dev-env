@@ -1,0 +1,40 @@
+{
+    "editor.fontFamily": "'FiraCode Nerd Font Mono', Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": "'ss01','ss03', 'ss04'",
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Night Owl",
+    "files.trimTrailingWhitespace": true,
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "ruby.intellisense": "rubyLocate",
+    // "ruby.useBundler": true, //run non-lint commands with bundle exec
+    "ruby.useLanguageServer": true, // use the internal language server (see below)
+    "ruby.lint": {
+        "rubocop": {
+            // "useBundler": true // enable rubocop via bundler
+        }
+    },
+    "ruby.format": "rubocop",
+    "ruby.rubocop.onSave": false,
+    "editor.minimap.enabled": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.env.osx": {"PYTHONPATH": "${workspaceFolder}"},
+    "python.terminal.launchArgs": [
+
+    ],
+    "python.defaultInterpreterPath": "python3",
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "githubPullRequests.terminalLinksHandler": "github"
+}
